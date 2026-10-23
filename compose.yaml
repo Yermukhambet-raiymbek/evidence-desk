@@ -1,0 +1,12 @@
+services:
+  evidence-desk:
+    build: .
+    ports:
+      - "127.0.0.1:8787:8787"
+    environment:
+      EVIDENCE_API_TOKEN: ${EVIDENCE_API_TOKEN:?Set a strong EVIDENCE_API_TOKEN in .env}
+    volumes:
+      - evidence-data:/app/var
+    restart: unless-stopped
+volumes:
+  evidence-data:
