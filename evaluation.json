@@ -1,0 +1,14 @@
+[
+  {"query":"How long are backup archives retained?","document":"operations.md","needle":"thirty days"},
+  {"query":"How many webhook delivery attempts are allowed?","document":"operations.md","needle":"five"},
+  {"query":"When do API tokens expire?","document":"operations.md","needle":"ninety days"},
+  {"query":"What document formats are supported?","document":"product.md","needle":"plain text and Markdown"},
+  {"query":"What is the document size limit?","document":"product.md","needle":"128 KiB"},
+  {"query":"Does search use semantic embeddings?","document":"product.md","needle":"not enabled"},
+  {"query":"What are the support hours?","document":"support.md","needle":"09:00 to 17:00 UTC"},
+  {"query":"How long is the refund request window?","document":"support.md","needle":"fourteen days"},
+  {"query":"When does scheduled maintenance occur?","document":"support.md","needle":"first Sunday"},
+  {"query":"Where are invoices available?","document":"support.md","needle":"billing dashboard"},
+  {"query":"What is the lunar platinum mining budget?","document":null,"needle":null},
+  {"query":"Which dinosaur invented quantum ballet?","document":null,"needle":null}
+]
